@@ -1,39 +1,35 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "betterweapons",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "BetterWeapons",
+	"description": "Adds simple Weapons to Minecraft for use with the Better Combat Mod",
 	"authors": [
-		"Me!"
+		"jmb19905"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/jmb05/BetterWeapons"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT",
+	"icon": "assets/betterweapons/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"net.jmb19905.betterweapons.BetterWeapons"
 		],
-		"client": [
-			"com.example.ExampleModClient"
+		"fabric-datagen": [
+			"net.jmb19905.betterweapons.datagen.BWDataGeneration"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"betterweapons.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"bettercombat": ">=1.7.2+1.20.1"
 	},
 	"suggests": {
 		"another-mod": "*"

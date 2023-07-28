@@ -1,0 +1,7 @@
+{
+  "parent": "betterweapons:item/longsword_template",
+  "textures": {
+    "0": "betterweapons:item/diamond_weapon",
+    "particle": "block/stripped_spruce_log"
+  }
+}

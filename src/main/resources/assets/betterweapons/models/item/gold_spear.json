@@ -1,0 +1,6 @@
+{
+  "parent": "betterweapons:item/spear_template",
+  "textures": {
+    "1": "block/gold_block"
+  }
+}

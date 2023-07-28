@@ -1,9 +1,7 @@
-# Fabric Example Mod
+# Better Weapons Mod
 
-## Setup
+A Minecraft Mod which adds Simple Weapons for use with the Better Combat Mod
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Links
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Better Combat: [Github](https://github.com/ZsoltMolnarrr/BetterCombat) [Modrinth](https://modrinth.com/mod/better-combat)

@@ -1,0 +1,6 @@
+{
+  "parent": "betterweapons:item/mace_template",
+  "textures": {
+    "1": "block/diamond_block"
+  }
+}

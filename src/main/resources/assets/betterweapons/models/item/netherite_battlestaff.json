@@ -1,0 +1,6 @@
+{
+  "parent": "betterweapons:item/battlestaff_template",
+  "textures": {
+    "1": "block/netherite_block"
+  }
+}
