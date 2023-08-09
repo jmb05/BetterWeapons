@@ -1,0 +1,28 @@
+{
+  "attributes": {
+    "attack_range": 3.25,
+    "pose": "bettercombat:pose_two_handed_polarm",
+    "two_handed": true,
+    "category": "axe",
+    "attacks": [
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slash_vertical_right",
+        "swing_sound": {
+          "id": "bettercombat:axe_slash"
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "angle": 150,
+        "upswing": 0.5,
+        "animation": "bettercombat:two_handed_slash_vertical_left",
+        "swing_sound": {
+          "id": "bettercombat:axe_slash"
+        }
+      }
+    ]
+  }
+}

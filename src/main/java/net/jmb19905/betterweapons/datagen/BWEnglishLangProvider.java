@@ -18,13 +18,11 @@ public class BWEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(BetterWeapons.DIAMOND_BATTLESTAFF, "Diamond Battlestaff");
         translationBuilder.add(BetterWeapons.NETHERITE_BATTLESTAFF, "Netherite Battlestaff");
 
-        translationBuilder.add(BetterWeapons.WOODEN_DAGGER, "Wooden Dagger");
         translationBuilder.add(BetterWeapons.IRON_DAGGER, "Iron Dagger");
         translationBuilder.add(BetterWeapons.GOLD_DAGGER, "Gold Dagger");
         translationBuilder.add(BetterWeapons.DIAMOND_DAGGER, "Diamond Dagger");
         translationBuilder.add(BetterWeapons.NETHERITE_DAGGER, "Netherite Dagger");
 
-        translationBuilder.add(BetterWeapons.WOODEN_LONGSWORD, "Wooden Longsword");
         translationBuilder.add(BetterWeapons.IRON_LONGSWORD, "Iron Longsword");
         translationBuilder.add(BetterWeapons.GOLD_LONGSWORD, "Gold Longsword");
         translationBuilder.add(BetterWeapons.DIAMOND_LONGSWORD, "Diamond Longsword");
@@ -41,5 +39,25 @@ public class BWEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(BetterWeapons.GOLD_MACE, "Gold Mace");
         translationBuilder.add(BetterWeapons.DIAMOND_MACE, "Diamond Mace");
         translationBuilder.add(BetterWeapons.NETHERITE_MACE, "Netherite Mace");
+
+        translationBuilder.add(BetterWeapons.IRON_GLAIVE, "Iron Glaive");
+        translationBuilder.add(BetterWeapons.GOLD_GLAIVE, "Gold Glaive");
+        translationBuilder.add(BetterWeapons.DIAMOND_GLAIVE, "Diamond Glaive");
+        translationBuilder.add(BetterWeapons.NETHERITE_GLAIVE, "Netherite Glaive");
+
+        translationBuilder.add(BetterWeapons.IRON_HALBERD, "Iron Halberd");
+        translationBuilder.add(BetterWeapons.GOLD_HALBERD, "Gold Halberd");
+        translationBuilder.add(BetterWeapons.DIAMOND_HALBERD, "Diamond Halberd");
+        translationBuilder.add(BetterWeapons.NETHERITE_HALBERD, "Netherite Halberd");
+
+        translationBuilder.add(BetterWeapons.IRON_LONGAXE, "Iron Long Axe");
+        translationBuilder.add(BetterWeapons.GOLD_LONGAXE, "Gold Long Axe");
+        translationBuilder.add(BetterWeapons.DIAMOND_LONGAXE, "Diamond Long Axe");
+        translationBuilder.add(BetterWeapons.NETHERITE_LONGAXE, "Netherite Long Axe");
+
+        translationBuilder.add("tooltip.betterweapons.dismounting", "Dismounting");
+        translationBuilder.add("tooltip.betterweapons.stunning", "Stunning");
+        translationBuilder.add("tooltip.betterweapons.chance", "Chance: ");
+
     }
 }

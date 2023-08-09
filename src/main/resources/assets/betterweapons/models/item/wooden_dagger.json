@@ -1,6 +1,0 @@
-{
-  "parent": "betterweapons:item/dagger_template",
-  "textures": {
-    "1": "block/oak_planks"
-  }
-}

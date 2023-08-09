@@ -1,0 +1,7 @@
+{
+  "parent": "betterweapons:item/glaive_template",
+  "textures": {
+    "0": "betterweapons:item/netherite_weapon",
+    "particle": "betterweapons:item/netherite_weapon"
+  }
+}

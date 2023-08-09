@@ -1,0 +1,7 @@
+{
+  "parent": "betterweapons:item/longaxe_template",
+  "textures": {
+    "0": "betterweapons:item/netherite_weapon",
+    "particle": "block/stripped_spruce_log"
+  }
+}

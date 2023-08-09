@@ -2,5 +2,13 @@
   "parent": "betterweapons:item/battlestaff_template",
   "textures": {
     "1": "block/diamond_block"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "betterweapons:item/diamond_battlestaff_blocking"
+    }
+  ]
 }

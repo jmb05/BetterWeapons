@@ -1,10 +1,15 @@
 {
-	"required": true,
-	"package": "",
-	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "net.jmb19905.betterweapons.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LivingEntityAccessor",
+    "LivingEntityMixin",
+    "MobEntityMixin",
+    "PlayerEntityMixin",
+    "RavagerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }

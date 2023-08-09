@@ -1,0 +1,7 @@
+{
+  "parent": "betterweapons:item/glaive_template",
+  "textures": {
+    "0": "betterweapons:item/diamond_weapon",
+    "particle": "betterweapons:item/diamond_weapon"
+  }
+}

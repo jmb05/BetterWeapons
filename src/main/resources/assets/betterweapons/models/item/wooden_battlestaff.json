@@ -2,5 +2,13 @@
   "parent": "betterweapons:item/battlestaff_template",
   "textures": {
     "1": "block/oak_planks"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "betterweapons:item/wooden_battlestaff_blocking"
+    }
+  ]
 }
